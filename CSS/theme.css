@@ -1,0 +1,292 @@
+body{
+  background-color:#F4F4F0;
+}
+
+
+.jumbotron {
+    background-color: #ffffff;
+}
+
+.biblio-logo {
+    font-family: Century Gothic;
+    font-size: 32px;
+    letter-spacing: 2px;
+    color: #F39539;
+}
+.panel2{
+    border-color: #DDD;
+    margin-left: -24px;
+    margin-right: -8px;
+  }
+.height{
+      height: 786px;
+}
+
+.dot {
+    color: black;
+}
+#logoright {
+    padding-top: 31px;
+    font-size: 29PX;
+    font-family: -webkit-pictograph;
+    letter-spacing: 5px;
+    color: #4C88A2;
+}
+.jumbotron {
+    padding-top: 4px;
+    padding-bottom: 90px;
+    margin-bottom: 8px;
+}
+
+
+
+
+
+
+
+#iscri {
+    padding-left: 45px;
+}
+#iscri input[type="text"],#iscri input[type="password"]{
+     border: 0px;
+    background: #f2f2f2;
+    margin: 0 0 5px;
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 16px;
+	outline:none;      /*les faites de clique*/
+
+}
+
+#iscri input[type="submit"]{
+background-color: #3E3E3E;
+    color: #fff;
+    padding: 11px 25px;
+    border: 0;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-right: 19px;
+	outline:none;
+}
+.input-group {
+    margin-top: 17px;
+    position: relative;
+    display: table;
+    border-collapse: separate;
+}
+#menu1, #menu2 {
+    margin-top: 55px;
+    background-color: #ffffff;
+    color: black;
+    border: 1px solid #797979;
+    height: 408px;
+}
+#menu1 h3,#menu2 h3
+{
+color:#F39539;
+text-align: center;
+}
+#menu1 li,#menu2 li{
+	margin:10px
+	
+	
+}
+.caption h2{
+  color:#F39539;
+}
+#pied p {
+    margin: 51px;
+    font-style: oblique;
+    font-size: 20px;
+    color: rgb(140, 140, 140);
+    text-align: center;
+}
+#reglement_ecrire h2 {
+    font-size:27px;
+    color: royalblue;
+    }
+#reglement_ecrire ul li{
+    font-size: large;
+}
+.login_table {
+  border-spacing: 0;
+  padding: 40px 40px;
+  margin: auto;
+  border-radius: 4px;
+  margin-top: 4%;
+  /*Now */
+}
+.login_table tr td {
+  padding: 5px;
+  color: #333;
+}
+.login_table tr td span {
+  color: red;
+  float: left;
+}
+.login_table tr td input[type="text"] {
+  padding: 12px 10px;
+  font-size: 15px;
+  border: 1px solid silver;
+  width: 400px;
+  outline: 0;
+}
+.login_table tr td input[type="password"] {
+  padding: 12px 10px;
+  font-size: 15px;
+  border: 1px solid silver;
+  width: 400px;
+  outline: 0;
+}
+.login_table tr td input[type="submit"] {
+  background-color: #3E3E3E;
+  color: #fff;
+  padding: 10px 30px;
+  border: 0;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-right: 28px;
+}
+.login_table tr td input[type="reset"] {
+  background-color: #3E3E3E;
+  color: #fff;
+  padding: 10px 30px;
+  border: 0;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.foo{
+  display: flex;
+  background-color: #181818;
+  color: #F3F3F3;
+  margin-top: 20px;
+  padding: 45px 0px;
+  font-size: 16px;
+  font-family: arial, sans-serif;
+  border-top: 2px solid #8484EF;
+}
+
+.social {
+  display: flex;
+
+}
+
+.social ul {
+    list-style: none;
+    margin: 0px auto;
+    padding: 0px;
+    width: 120px;
+
+}
+
+.social ul li {
+  float: left;
+}
+
+.social ul li a {
+  line-height: 28px;
+  margin-left: 20px;
+  cursor: pointer;
+  color: #817F7F;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+.panel1{
+  margin: 10px;
+}
+
+.social ul li a:hover {
+  color: #BCBCBC;
+}
+
+.social ul li a span {
+  margin-left: 10px;
+  transition: margin 0.3s ease-in-out;
+}
+
+.social ul li a span:hover {
+  margin-left: 14px;
+}
+
+.social ul li a img {
+    width: 25px;
+    border-radius: 50%;
+    transition: margin 0.2s ease-in-out;
+}
+
+.social ul li a:hover {
+  margin-top: 6px;
+}
+
+.propos {
+
+}
+
+.foo-headline {
+  margin-top: 0px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  color: #E1E1E1;
+}
+
+.propos h2 {
+  text-align: center;
+}
+
+.propos p {
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 20px;
+  color: #817F7F;
+  width: 65%;
+  margin: 0 auto;
+  text-align: justify;
+  text-align-last: center;
+  -moz-text-align-last: center;
+}
+
+
+
+.team {
+  text-align: left;
+  display: flex;
+}
+
+.team ul {
+  margin: 0px auto;
+  padding: 0px;
+  list-style: none;
+}
+
+.team ul li a {
+  margin-left: 20px;
+  cursor: pointer;
+  color: #817F7F;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 20px;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.team ul li a:hover {
+  color: #BCBCBC;
+}
+
+.rights {
+  background-color: #272727;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  font-weight: bold;
+}
+
+.rights .italic {
+  font-style: italic;
+}

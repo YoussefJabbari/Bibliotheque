@@ -1,0 +1,38 @@
+
+body{
+
+    background-color: rgba(244, 244, 240, 1);
+
+	}
+.border_page {
+    background-color: #ffffff;
+    border: 1px solid black;
+    margin:10px 50px;
+}
+.border_page hr {
+    border: 0;
+    border-top: 1px solid #E95325;
+    margin: 6px 33px;
+}
+.border_page h2 {
+    color: #E95325;
+    font-family: sans-serif;
+    margin: 23px 0px 7px 30px;
+}
+.img-livre {
+	width: 25.333333%;
+	margin-left: 30px;
+}
+.paragraphe-livre{
+	border:0px;
+}
+.paragraphe {
+    width: 60.333333%;
+}
+.nom-livre{
+	color: #337ab7;
+}
+.img-auteur{
+	width: 20.333333%;
+	margin-left: 30px;
+}
